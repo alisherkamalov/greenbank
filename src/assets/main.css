@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Lobster&family=M+PLUS+1:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=M+PLUS+1:wght@100..900&display=swap');
+body {
+    background-color: rgb(9, 10, 9);
+    text-align: center;
+    overflow-x: hidden;
+}
+/* Стиль для полосы прокрутки */
+body {
+    scrollbar-width: thin;              
+    scrollbar-color: rgb(43, 179, 42) rgb(43, 179, 42);   
+  }
+  
+  body::-webkit-scrollbar {
+    width: 10px;               
+    height: 10px;             
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(43, 179, 42);      
+    border-radius: 10px;       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(43, 179, 42); 
+    border-radius: 10px;       
+    border: 0; 
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(43, 179, 42); 
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS 1';
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+}
+ul {
+    list-style: none;
+}
